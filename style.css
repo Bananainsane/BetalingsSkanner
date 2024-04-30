@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #86509c;
+    padding: 65px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+p {
+    margin: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px;
+}
+
+#DRIKKELSE {
+    background-color: #f1f1f1;
+    padding: 0px;
+}
+
+#TILBEHØR {
+    text-align: center;
+    color: white;
+    background-color: #d74681;
+}
+
+.DESSERT-section {
+    background-color: #f8f8f8;
+    color: white;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type='text'],
+form input[type='email'],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form input[type='submit'] {
+    padding: 10px 20px;
+    background-color: #30bae8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #3c549a;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#DRIKKELSE {
+    background-color: #fc992f;
+    padding: 125px;
+}
+
+.DRIKKELSE-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.stylish1 {
+    width: 10%;
+    height: 3px;
+    margin: 20px auto; /* This centers the hr and gives it space above and below */
+    border: none; /* Removes the default border */
+    border-radius: 50px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(72, 61, 139, 0.3); /* A subtle shadow */
+    background-color: #ec8918;
+}
+
+.stylish2 {
+    width: 10%;
+    height: 3px;
+    margin: 20px auto; /* This centers the hr and gives it space above and below */
+    border: none; /* Removes the default border */
+    border-radius: 50px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(72, 61, 139, 0.3); /* A subtle shadow */
+    background-color: #b83c6e;
+}
+.stylish3 {
+    width: 10%;
+    height: 4px;
+    margin: 20px auto; /* This centers the hr and gives it space above and below */
+    border: none; /* Removes the default border */
+    border-radius: 50px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(72, 61, 139, 0.3); /* A subtle shadow */
+    background-color: #2a3975;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.content-row {
+    padding: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image-content {
+    flex-basis: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverse-row {
+    flex-direction: row-reverse;
+}
+
+.DESSERT-section {
+    background-color: #3c549a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    margin-right: 10px;
+}
+
+.form-row input[type='text'],
+.form-row input[type='email'] {
+    width: 280px;
+    margin-left: 10px;
+    background-color: #273a72;
+    border: none;
+}
+
+textarea#message {
+    width: 600px;
+    height: 175px;
+    background-color: #273a72;
+    border: none;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container input {
+    width: 175px;
+    margin-right: 10px;
+}
+
+.underheader {
+    color: white;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.TILBEHØR2 {
+    width: 100%;
+    max-width: 700px;
+}
+
+button {
+    background-color: #eb7d4a;
+    border: none;
+    color: white;
+    width: 175px;
+    height: 40px;
+}
+
+.menu-checkbox {
+    display: none;
+}
+
+.burger-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1020px) {
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #86509c;
+        z-index: 10;
+    }
+
+    #nav-menu a {
+        margin-bottom: 10px;
+    }
+
+    .burger-menu-button {
+        display: block;
+    }
+
+    .menu-checkbox:checked + .burger-menu-button + #nav-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .logo,
+    .menu-container {
+        width: auto;
+        text-align: center;
+    }
+
+    .content-row {
+        flex-direction: column;
+    }
+
+    .text-content,
+    .image-content {
+        width: auto;
+        padding: 10px 0;
+    }
+
+    .reverse-row {
+        flex-direction: column-reverse;
+    }
+
+    textarea#message {
+        width: 90%;
+    }
+
+    .form-row input[type='text'],
+    .form-row input[type='email'] {
+        width: 90%;
+    }
+
+    .TILBEHØR2 {
+        width: 100%;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.underheader2 {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.h1 {
+    margin: 0;
+}

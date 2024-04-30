@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="Da">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basic HTML Site</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="logo.png" alt="McDonald's Logo" width="50" height="50">
+                <h1>McDonald's</h1>
+            </div>
+        </div>
+        <h3 id="order-number-display">Bestillingsnummer: 1</h3>
+        <h3 id="daily-sales-display">Dagens Omsætning: 0 DKK</h3>
+    </header>
+
+    <body>
+
+    <section id="HOVEDRET">
+        <h2>Hovedretter</h2>
+        <button onclick="addToOrder('Big Mac', 30)">Big Mac - 30 DKK</button>
+        <button onclick="addToOrder('Cheeseburger', 15)">Cheeseburger - 15 DKK</button>
+    </section>
+
+    <section id="DRIKKELSE">
+        <h2>Drikkevarer</h2>
+        <button onclick="addToOrder('Coca Cola', 10)">Coca Cola - 10 DKK</button>
+        <button onclick="addToOrder('Vand', 5)">Vand - 5 DKK</button>
+    </section>
+
+    <section id="TILBEHØR">
+        <h2>Tilbehør</h2>
+        <button onclick="addToOrder('Fritter', 20)">Fritter - 20 DKK</button>
+    </section>
+
+    <section id="DESSERT">
+        <h2>Desserter</h2>
+        <button onclick="addToOrder('Is', 25)">Is - 25 DKK</button>
+    </section>
+            
+    </section>
+    <script src="./app.js"></script>
+</body>
+        <footer>
+            <h3 id="total-display">total: </h3>
+            <button onclick="completeOrder()">Gennemfør Køb</button>
+            <button onclick="cancelOrder()">Annuller Bestilling</button>
+        </footer>
+</html>
+
