@@ -10,7 +10,6 @@ document.getElementById('total-display').textContent = `Total: ${total} DKK`;
 function addToOrder(item, price) {
     currentOrder.push({ item, price });
     total();
-    alert(`Added ${item} - ${price} DKK`);
 
 }
 function total() {
@@ -26,14 +25,12 @@ function completeOrder() {
     document.getElementById('daily-sales-display').textContent = `Dagens Omsætning: ${dailySales} DKK`;
     currentOrder = [];
     incrementOrderNumber();
-    alert(`Order #${currentOrderNumber} completed. Total: ${total} DKK`);
     document.getElementById('total-display').textContent = 'Total: ';
 }
 
 function addToOrder(item, price) {
     currentOrder.push({ item, price });
     total();
-    alert(`Added ${item} - ${price} DKK`);
 }
 
 function incrementOrderNumber() {
